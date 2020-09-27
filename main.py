@@ -11,7 +11,7 @@ from datetime import datetime
 
 def log():
     global api
-    api = PyiCloudService('glaglasven@live.com', 'Im4g33k!')
+    api = PyiCloudService('glaglasven@live.com', '')
 
     if api.requires_2sa:
         import click
